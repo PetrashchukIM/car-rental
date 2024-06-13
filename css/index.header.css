@@ -60,8 +60,17 @@
   }
 }
 
+.header-link-wrapper {
+  flex: 0 0 80%;
+  margin-top: 7vh;
+  padding-right: 2vw;
+}
+
 .header-menu {
-  flex: 0 0 60%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3vh;
 
   ul {
     display: flex;
@@ -70,11 +79,26 @@
   }
   li {
     flex: 1;
+    margin-right: 10px;
+    text-align: center;
   }
 }
 
 .social-networks {
-  flex: 0 0 20%;
   display: flex;
-  flex-direction: row;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: 4vw;
+  justify-content: space-between;
+  width: 12vw;
+  
+  .social-network-item {
+    width: 32px;
+    height: 32px;
+    a {
+      display: block;
+      width: 32px;
+      height: 32px;
+    }
+  }
 }
