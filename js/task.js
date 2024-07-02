@@ -17,15 +17,3 @@ function isPrime(num){
     });
     return found;
 }
-
-function generatePrimes(n){
-    let resArr = [];
-    isPrime(n);
-
-    for (let i=0; i<=n-1; i++){
-        resArr.push(primeNumberArr[i]);
-    }
-    console.log(resArr);
-}
-
-generatePrimes(10);
